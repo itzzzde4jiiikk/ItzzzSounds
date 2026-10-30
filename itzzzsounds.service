@@ -1,0 +1,13 @@
+[Unit]
+Description=ItzzzSounds - Yandex Music Discord Synced Lyrics Presence
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/Itzzz/ItzzzSounds/start.sh --no-ui
+Restart=on-failure
+RestartSec=5s
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=default.target

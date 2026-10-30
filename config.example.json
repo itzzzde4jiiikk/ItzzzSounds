@@ -1,0 +1,41 @@
+{
+    "_comment": "ItzzzSounds Configuration File",
+    "mode": "rpc",
+    "rpc": {
+        "enabled": true,
+        "client_id": "1217562797999784007",
+        "activity_type": "listening",
+        "details_format": "🎵 {title} — {artist}",
+        "state_format": "🎤 {line}",
+        "pause_text": "⏸️ На паузе",
+        "no_lyrics_state": "🎧 Слушает в Яндекс Музыке",
+        "min_update_interval": 3.0,
+        "show_buttons": true,
+        "show_time_scrubber": true
+    },
+    "custom_status": {
+        "enabled": false,
+        "token": "YOUR_DISCORD_USER_TOKEN_HERE",
+        "format": "🎶 {line}",
+        "emoji": "🎵",
+        "min_update_interval": 3.0,
+        "clear_on_pause": true
+    },
+    "yandex_music": {
+        "token": "OPTIONAL_YANDEX_MUSIC_TOKEN",
+        "preferred_players": [
+            "yandex-music",
+            "firefox",
+            "chromium",
+            "google-chrome",
+            "brave",
+            "edge",
+            "opera"
+        ]
+    },
+    "ui": {
+        "dashboard": true,
+        "show_lyrics_preview": true,
+        "preview_lines": 3
+    }
+}
